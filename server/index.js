@@ -11,7 +11,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
 
-    const url = `https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.385043&lng=78.486671&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`;
+    const url = `https://www.swiggy.com/dapi/restaurants/list/v5?lat=23.1685786&lng=79.9338798&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`;
   
     fetch(url, {
       headers: {
